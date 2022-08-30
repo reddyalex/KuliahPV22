@@ -34,9 +34,9 @@ namespace Minggu2___PhoneBook.Class
 
         public override string ToString()
         {
-            return "Name: " + Name + Environment.NewLine + 
-                   "Phone: " + Phone + Environment.NewLine + 
-                   "Emergency: " + emergency + Environment.NewLine;
+            return "Name: " + Name + " " + Environment.NewLine + 
+                   "Phone: " + Phone + " " + Environment.NewLine + 
+                   "Emergency: " + emergency + " " + Environment.NewLine;
         }
 
     }

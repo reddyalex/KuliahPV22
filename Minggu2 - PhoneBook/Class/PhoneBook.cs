@@ -54,7 +54,7 @@ namespace Minggu2___PhoneBook.Class
         public string searchContact(string name)
         {
             //contacts.IndexOf() // tidak cocok untuk kasus ini karena compare objek secara utuh bukan mencari bagian dari objek
-            var x = contacts.Find((c) => c.Name == name);
+            var x = contacts.Find((c) => c.Name.ToLower() == name.ToLower());
             if (x is null) 
                 return "Contact not found";
             else 
@@ -67,7 +67,7 @@ namespace Minggu2___PhoneBook.Class
             //if (x != null)
             //    contacts.Remove(x);
 
-            var jum = contacts.RemoveAll((x) => x.Name == name);
+            var jum = contacts.RemoveAll((x) => x.Name.ToLower() == name.ToLower());
             MessageBox.Show(jum + " data deleted");
 
             
