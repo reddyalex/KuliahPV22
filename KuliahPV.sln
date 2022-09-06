@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minggu1 Component Oriented"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minggu2 - PhoneBook", "Minggu2 - PhoneBook\Minggu2 - PhoneBook.csproj", "{77D6083D-907D-40DF-8224-BE6E46AE7495}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Minggu3_Dialogs", "Minggu3_Dialogs\Minggu3_Dialogs.csproj", "{B771AD8C-9BCA-486B-8DE2-2FF1E82C555A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{77D6083D-907D-40DF-8224-BE6E46AE7495}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77D6083D-907D-40DF-8224-BE6E46AE7495}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77D6083D-907D-40DF-8224-BE6E46AE7495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B771AD8C-9BCA-486B-8DE2-2FF1E82C555A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B771AD8C-9BCA-486B-8DE2-2FF1E82C555A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B771AD8C-9BCA-486B-8DE2-2FF1E82C555A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B771AD8C-9BCA-486B-8DE2-2FF1E82C555A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
