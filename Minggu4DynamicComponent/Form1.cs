@@ -22,6 +22,8 @@ namespace Minggu4DynamicComponent
         int timer = 0;
         private void timer1_Tick(object sender, EventArgs e)
         {
+
+            this.Text = timer / 10 +"";
             for (int i = 0; i < 3; i++)
             {
 
